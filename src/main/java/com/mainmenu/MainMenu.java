@@ -245,7 +245,7 @@ public class MainMenu {
         System.out.print("Enter Account Type (Saving/Checking/Business): ");
         String accType = scanner.nextLine();
         System.out.print("Enter Initial Balance: ");
-        Double balance = double.parseDouble(scanner.nextLine());
+        Double balance = Double.parseDouble(scanner.nextLine());
 
         Account account = new Account(accountNo, accType, balance);
         accountRepository.addAccount(account);
