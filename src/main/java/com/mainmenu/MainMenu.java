@@ -3,8 +3,6 @@ package com.mainmenu;
 import java.util.List;
 import java.util.Scanner;
 
-import javax.persistence.EntityManager;
-
 import com.database.HibernateConnection;
 import com.entity.Account;
 import com.entity.Bank;
@@ -16,6 +14,8 @@ import com.repository.BankRepository;
 import com.repository.BranchRepository;
 import com.repository.CustomerRepository;
 import com.repository.LoanRepository;
+
+import jakarta.persistence.EntityManager;
 
 public class MainMenu {
 
