@@ -1,12 +1,21 @@
 package com.mainmenu;
 
-import com.entity.*;
-import com.repository.*;
-import com.database.HibernateConnection;
+import java.util.List;
+import java.util.Scanner;
 
 import javax.persistence.EntityManager;
-import java.util.Scanner;
-import java.util.List;
+
+import com.database.HibernateConnection;
+import com.entity.Account;
+import com.entity.Bank;
+import com.entity.Branch;
+import com.entity.Customer;
+import com.entity.Loan;
+import com.repository.AccountRepository;
+import com.repository.BankRepository;
+import com.repository.BranchRepository;
+import com.repository.CustomerRepository;
+import com.repository.LoanRepository;
 
 public class MainMenu {
 
